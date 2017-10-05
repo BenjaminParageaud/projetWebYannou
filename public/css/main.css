@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'learning_curvebold';
+    src: url('../fonts/learning_curve_bold_ot_ps-webfont.woff2') format('woff2'),
+         url('../fonts/learning_curve_bold_ot_ps-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arizoniaregular';
+    src: url('../fonts/arizonia-regular-webfont.woff2') format('woff2'),
+         url('../fonts/arizonia-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.navbar-inverse{
+background-image: -webkit-linear-gradient(top,#1f2987 0,#222 100%);
+    
+}
+
+.jumbotron{
+    background-image: url('../img/wcs.jpg');    
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.jumbotron h1{
+
+font-family: 'learning_curvebold', Arial, serif; 
+font-size : 100px;
+
+    
+}
+
+.navbar-brand{
+    font-size: 36px;
+}
+
+.navbar-brand p {
+    
+font-family: 'arizoniaregular', Arial, serif;    
+color: #eee;
+    
+}
+
+#content {
+border: 1px Solid grey;     
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+    
+}
+
+@media (min-width: 768px) {
+    
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  
+
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  
+  .sidebar-nav{
+    margin-top: 10px;
+    border: 2px Solid black;  
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #aa6d0b;
+  }
+  
+  .ul li a{
+    background-color: yellow;  
+      
+  }
+
+}
+
+
+
